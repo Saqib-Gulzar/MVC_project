@@ -17,6 +17,7 @@ public class HomeController : Controller
     {
         return View();
     }
+    added
     public IActionResult ListData()
     {
         List<Student> std = context.Students.ToList();
